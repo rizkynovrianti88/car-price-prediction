@@ -15,8 +15,37 @@ Aplikasi Machine Learning untuk memprediksi harga mobil berdasarkan spesifikasi 
 - Insight sederhana
 - Visualisasi data
 
+
 ## ⚙️ Cara Menjalankan
 ```bash
 pip install -r requirements.txt
 python train_model.py
 streamlit run app.py
+```
+<img width="241" height="326" alt="image" src="https://github.com/user-attachments/assets/f03d82b6-15dd-4a60-bfa4-4da8d0e2dcd9" />
+
+## 📈 Insight
+- 🚗 Mileage tinggi → harga cenderung turun
+- ⚙️ Engine besar → harga cenderung lebih tinggi
+- 📅 Tahun kendaraan mempengaruhi depresiasi
+
+## 📦 Struktur Project
+# car-price-prediction/
+
+-   app.py
+-   train_model.py
+-   Clean_car_data.csv
+-   model.pkl
+-   requirements.txt
+-   README.md
+
+## 💡 Pengembangan Selanjutnya
+- Hyperparameter tuning (GridSearch / RandomSearch)
+- Tambah model lain (XGBoost, Linear Regression)
+- Deploy dengan UI yang lebih advanced
+
+# 👤 Author
+
+Rizky Novrianti
+- 📊 Data Enthusiast | Mathematics Background
+- 🔗 https://github.com/rizkynovrianti88
