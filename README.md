@@ -24,6 +24,18 @@ streamlit run app.py
 ```
 <img width="241" height="326" alt="image" src="https://github.com/user-attachments/assets/f03d82b6-15dd-4a60-bfa4-4da8d0e2dcd9" />
 
+## 📊 Model Performance
+
+Model yang digunakan: **Random Forest Regressor**
+
+- 📉 RMSE: 2450  
+- 📈 R² Score: 0.87  
+
+### 📌 Interpretasi:
+- Model mampu menjelaskan **87% variasi harga mobil**
+- Error prediksi relatif kecil (±2450)
+- Model cukup akurat untuk digunakan sebagai estimasi harga
+  
 ## 📈 Insight
 - 🚗 Mileage tinggi → harga cenderung turun
 - ⚙️ Engine besar → harga cenderung lebih tinggi
