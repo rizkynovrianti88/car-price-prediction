@@ -28,13 +28,14 @@ streamlit run app.py
 
 Model yang digunakan: **Random Forest Regressor**
 
-- 📉 RMSE: 2450  
-- 📈 R² Score: 0.87  
+- 📉 RMSE: 2453.55  
+- 📈 R² Score: 0.92450  
 
-### 📌 Interpretasi:
-- Model mampu menjelaskan **87% variasi harga mobil**
-- Error prediksi relatif kecil (±2450)
-- Model cukup akurat untuk digunakan sebagai estimasi harga
+## 📌 Interpretasi:
+- Model mampu menjelaskan **±92.45% variasi harga mobil**
+- Nilai R² tinggi → model sangat baik dalam menangkap pola data
+- RMSE ~2.45K menunjukkan rata-rata error prediksi relatif kecil
+- Model sudah cukup akurat untuk estimasi harga kendaraan
   
 ## 📈 Insight
 - 🚗 Mileage tinggi → harga cenderung turun
