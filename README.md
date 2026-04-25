@@ -28,8 +28,8 @@ streamlit run app.py
 
 Model yang digunakan: **Random Forest Regressor**
 
-- 📉 RMSE: 2453.55  
-- 📈 R² Score: 0.92450  
+- 📉 RMSE: 2639.87 
+- 📈 R² Score: 0.9154 
 
 ## 📌 Interpretasi:
 - Model mampu menjelaskan **±91.5% variasi harga mobil**
