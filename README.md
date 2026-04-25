@@ -32,9 +32,9 @@ Model yang digunakan: **Random Forest Regressor**
 - 📈 R² Score: 0.92450  
 
 ## 📌 Interpretasi:
-- Model mampu menjelaskan **±92.45% variasi harga mobil**
+- Model mampu menjelaskan **±91.5% variasi harga mobil**
 - Nilai R² tinggi → model sangat baik dalam menangkap pola data
-- RMSE ~2.45K menunjukkan rata-rata error prediksi relatif kecil
+- RMSE ~2.63K menunjukkan rata-rata error prediksi relatif kecil
 - Model sudah cukup akurat untuk estimasi harga kendaraan
   
 ## 📈 Insight
